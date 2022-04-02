@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    font-family: "Yu Gothic";
+  }
+
+  header{
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: serif;
+    color: #FE642E;
+    font-family: "Yu Gothic";
+    margin-left: 20px;
+  }
+  
+
+  .first-block {
+    height: 500px;
+    background-color: #ddd;
+  }
+
+  /*   First block   */
+  #first-block {
+    background-image: url("../images/Selesto\ トップ.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title-container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-family: serif;
+    color: #FE642E;
+    font-family: "Yu Gothic";
+  }
+  
+  h3 {
+    font-size: 80px;
+    font-family: serif;
+    color: #FE642E;
+    font-family: "Yu Gothic";
+  }
+  h4 {
+    font-size: 40px;
+    font-family: serif;
+    color: #FE642E;
+    font-family: "Yu Gothic";
+  }
+  
+  h6 {
+    font-size: 30px;
+    font-family: serif;
+    color: #FE642E;
+    font-family: "Yu Gothic";
+  }
+  /*   First block End   */
+
+ /*   Second block   */
+ #second-block {
+    height: 500px;
+    background-color: #f0f0f0;
+    padding-top: 30px;
+  }
+  
+  /*   Second block End   */
+
+  /*   Third block   */
+#Third-block {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: lighter;
+  }
+  
+  .info-title {
+    font-size: 60px;
+    font-family: "Yu Gothic";
+    margin-bottom: 20px;
+    color: #444;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .number{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #FE642E;
+    text-align:left;
+    width: 10%;
+  }
+
+  .info-text {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #444;
+    text-align:left;
+    width: 30%;
+  }
+  
+  .font-small {
+    font-size: 30px;
+    font-family: "Yu Gothic";
+  }
+  /*   Third block End   */
+  
+  
+/*   Fourth block Start   */
+
+#fourth-block {
+    background-color: #FA8258;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: "Yu Gothic";
+  }
+  
+  .event-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Yu Gothic";
+    width: 100%;
+  }
+  
+  .events-title {
+    font-size: 60px;
+    font-family: "Yu Gothic";
+    color: rgb(5, 5, 5);
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .event {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .event-name {
+    font-size: 30px;
+    padding: 10px;
+    width: 50%;
+    font-family: "Yu Gothic";
+  }
+  
+  .span {
+    font-size: 30px;
+    font-family: serif;
+    font-family: "Yu Gothic";
+    
+  }
+  
+  .event-image {
+    width: 30%;
+    height: 330px;
+  }
+  /*   Fourth block End   */
+
+/*   Fifth block Start   */
+#fifth-block {
+  background-color: #fffaf9;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.function-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.fifth-title {
+  font-size: 60px;
+  font-family: serif;
+  color: #444;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+}
+
+.function {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Yu Gothic";
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.function-name {
+  font-size: 30px;
+  padding: 10px;
+  width: 40%;
+  font-family: "Yu Gothic";
+  
+}
+
+span {
+  font-size: 40px;
+  font-family: serif;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+}
+
+
+
+.function-image {
+  width: 20%;
+  height: 330px;
+}
+/*   Fifth block End   */
+
+  footer{
+    height: 50px;
+    background-color: #000;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 50px;
+    background-color: rgb(238, 135, 76);
+    font-size: 15px;
+    color: #fff;
+  }
